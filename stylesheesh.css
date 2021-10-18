@@ -100,7 +100,7 @@ html{
 .home{
     display: flex;
     height: 100vh;
-    background: url("background.JPG") no-repeat center;
+    background: url("https://y5cho.github.io/background.JPG") no-repeat center;
     background-size: cover;
     color: rgb(87, 181, 197);
     min-height: 500px; 
