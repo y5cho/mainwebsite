@@ -315,6 +315,7 @@ section .title::after{
 }
 .contact .contact-content .info .sub-title{
     color: #333;
+    font-weight: 400;
 }
 .contact .right form .fields{
     display: flex;
