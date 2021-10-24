@@ -1,25 +1,3 @@
-<!--
-<?php
-if (isset($_POST['submit'])){
-    $mailto = "yeonilcho2515@gmail.com";
-    $from = $_POST['email'];
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $subject2 = "Your message submitted successfully";
-    $message = "Cilent name: ". $name. "wrote the following message". "\n\n". $_POST['message'];
-    $message2 = "Dear ". $name. "\n\n" ."Thank you for reaching out! I'll get back to you shortly";
-    $headers = "From: ". $from;
-    $headers2 = "From: ". $mailto;
-    $result = mail($mailto, $subject, $message, $headers)
-    $result2 = mail($from, $subject2, $message2, $headers2)
-    if ($result) {
-        echo '<script type='text/javascript'>alert("Message was sent successfully") </script>';
-    } else {
-        echo '<script type='text/javascript'>alert("Submission failed") </script>';
-    }
-}
-?>
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -153,6 +131,7 @@ if (isset($_POST['submit'])){
                         <input type="text" name="_honey" style="display: none;">
                         <!--Disable Captcha-->
                         <input type="hidden" name="_capcha" value="false">
+                        <input type="hidden" name="_next" value="https://yeonilcho.com/success.html">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text"  name ="name" placeholder="Name" required>
