@@ -30,7 +30,7 @@ $(document).ready(function(){
     });
     
     var typed = new Typed(".typing-2",{
-        strings: ["Trapper", "Producer", "Creator", "Developer"],
+        strings: ["Trapper", "Creator", "Student", "Economist"],
         typeSpeed: 100,
         backSpped: 60,
         loop: true
