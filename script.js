@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     //typing animation script
     var typed = new Typed(".typing",{
-        strings: ["Trapper", "Producer", "Creator", "Developer"],
+        strings: ["Trapper", "Creator", "Student", "Economist"],
         typeSpeed: 100,
         backSpped: 60,
         loop: true
