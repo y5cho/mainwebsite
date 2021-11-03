@@ -281,7 +281,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "at anyime";
+    content: "let's work!";
 }
 
 .contact .contact-content .column{
